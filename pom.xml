@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>order-serive</module>
+        <module>common</module>
+        <module>common/common-domain</module>
     </modules>
 
     <parent>
@@ -50,6 +52,10 @@
                 <groupId>org.food.ordering.system</groupId>
                 <artifactId>order-application</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.food.ordering.system</groupId>
+                <artifactId>common-domain</artifactId>
             </dependency>
         </dependencies>
     </dependencyManagement>
